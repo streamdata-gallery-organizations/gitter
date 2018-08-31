@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Gitter",
+	"description": "This is a repository of gitter APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/gitter.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://gitter.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Gitter",
+			"x-api-slug": "gitter",
+			"description": "Gitter is a chat and networking platform that helps to manage, grow and connect communities through messaging, content and discovery.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png",
+			"humanURL": "http://gitter.im",
+			"baseURL": "https:///",
+			"tags": "Gitter",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/gitter/master/_listings/gitter/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Gitter",
+	"include": [
+		{
+			"name": "Gitter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/gitter/master/_listings/gitter/apis.yaml"
+		}
+	]
+}
